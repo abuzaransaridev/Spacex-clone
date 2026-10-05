@@ -1,0 +1,263 @@
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body {
+		background-color: black;
+		color: white;
+		font-family: Arial, sans-serif;
+	}
+	header {
+		padding: 1% 3%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: sticky;
+		top: 0;
+		color: white;
+		background-color: transparent;
+		z-index: 10000;
+	}
+	.navbar a {
+		text-decoration: none;
+		color: white;
+		display: flex;
+		align-items: center;
+		border-radius: 10px;
+	}
+	.navbar {
+		display: flex;
+		gap: 20px;
+	}
+	.lang_box {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 200px;
+		padding: 0.5%;
+		border: 1px solid #545457;
+		text-align: center;
+		font-size: 12px;
+		color: gray;
+		border-radius: 3px;
+	}
+	.lang_box span {
+		color: white;
+		font-size: 14px;
+	}
+	.sec1 {
+		height: 100vh;
+		width: 100%;
+		position: relative;
+		color: white;
+		overflow: hidden;
+	}
+	.sec1 video {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+	.top1 {
+		position: absolute;
+		left: 7%;
+		bottom: 15%;
+		color: white;
+	}
+	h1 {
+		font-size: 55px;
+		font-family: Arial, sans-serif;
+	}
+	.top1 h1 + p {
+		font-size: 16px;
+		margin-top: 25px;
+		color: white;
+		font-family: Arial, sans-serif;
+		line-height: 1.5;
+	}
+	button {
+		height: 40px;
+		width: 130px;
+		text-align: center;
+		font-size: 14px;
+		font-family: Arial, sans-serif;
+		background-color: black;
+		color: white;
+		border: solid grey 1px;
+		border-radius: 5px;
+		margin-top: 25px;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: white;
+		color: black;
+	}
+	.sec11 {
+		height: 120vh;
+		width: 100%;
+		position: relative;
+		color: white;
+		overflow: hidden;
+	}
+	.bg_img {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+	.bg_img img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		display: block;
+	}
+	.disp_area {
+		position: absolute;
+		top: 15%;
+		right: 3%;
+		width: 600px;
+		color: white;
+		z-index: 2;
+	}
+	.disp_area h1 {
+		font-size: 55px;
+		margin: 0;
+	}
+	.disp_area p {
+		font-size: 16px;
+		margin-top: 25px;
+		line-height: 1.5;
+	}
+	.disp_area button {
+		height: 50px;
+		width: 140px;
+		margin-top: 25px;
+	}
+	.se {
+		height: 120vh;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.se > div {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+	.se video {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		display: block;
+	}
+	.video1 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		display: block;
+	}
+	.d7,
+	.d8 {
+		height: auto;
+		width: 600px;
+		position: absolute;
+		top: 15%;
+		left: 5%;
+		color: white;
+	}
+	.d7 h1,
+	.d8 h1 {
+		font-size: 55px;
+	}
+	.d7p1 {
+		font-size: 16px;
+		margin-top: 25px;
+		line-height: 1.5;
+	}
+	.d7 h1 ~ p {
+		font-size: 16px;
+		margin-top: 25px;
+		line-height: 1.5;
+	}
+	.d7 h1 ~ button {
+		height: 50px;
+		width: 195px;
+		text-align: center;
+		font-size: 14px;
+		font-family: Arial, sans-serif;
+		background-color: black;
+		color: white;
+		border: solid grey 1px;
+		border-radius: 5px;
+		margin-top: 25px;
+		cursor: pointer;
+	}
+	.d8 button {
+		height: 50px;
+		width: 195px;
+		text-align: center;
+		font-size: 14px;
+		font-family: Arial, sans-serif;
+		background-color: black;
+		color: white;
+		border: solid grey 1px;
+		border-radius: 5px;
+		margin-top: 25px;
+		cursor: pointer;
+	}
+	.d7 button:hover,.d8 button:hover 
+	{
+		background-color: white;
+		color: black;
+	}
+	footer {
+		height: 90px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		background-color: black; 
+	}
+	.d9 {
+		height: 50px;
+		width: 50px;
+		border-radius: 100px;
+		background-color: #272727;
+		margin-left: 60px;
+		font-size: 20px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.d9 a {
+		text-decoration: none;
+		color: lightgrey;
+		font-size:22px;
+	}
+	.d9 ~ a
+	{
+		font-size:12px;
+	}
+	.d9 ~ p
+	{
+		font-size:10px;
+	}
+	.aaa,.aa {
+		text-decoration: none;
+		color: lightgrey;
+		font-family: Arial, sans-serif;
+	}
+	.aaa {
+		margin-left: 24%;
+	}
+	.aa {
+		margin-left: 1.9%;
+	}
+	.fop {
+		color: white;
+		margin-left: 20%;
+		font-size: 16px;
+	}
