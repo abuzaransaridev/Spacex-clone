@@ -1,15 +1,17 @@
-	* {
+	*
+	{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
-
-	body {
+	body 
+	{
 		background-color: black;
 		color: white;
 		font-family: Arial, sans-serif;
 	}
-	header {
+	header 
+	{
 		padding: 1% 3%;
 		display: flex;
 		justify-content: space-between;
@@ -20,18 +22,21 @@
 		background-color: transparent;
 		z-index: 10000;
 	}
-	.navbar a {
+	.navbar a 
+	{
 		text-decoration: none;
 		color: white;
 		display: flex;
 		align-items: center;
 		border-radius: 10px;
 	}
-	.navbar {
+	.navbar 
+	{
 		display: flex;
 		gap: 20px;
 	}
-	.lang_box {
+	.lang_box 
+	{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -43,7 +48,8 @@
 		color: gray;
 		border-radius: 3px;
 	}
-	.lang_box span {
+	.lang_box span 
+	{
 		color: white;
 		font-size: 14px;
 	}
